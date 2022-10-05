@@ -1,0 +1,12 @@
+Common Object Request Broker Architecture (CORBA)
+The Common Object Request Broker Architecture (CORBA) is a standard defined by the Object Management Group (OMG) 
+that enables software components written in multiple computer languages and running on multiple computers to work together.
+
+CORBA is a standard for distributing objects across networks so that operations on those objects can be called remotely. 
+CORBA is not associated with a particular programming language, 
+and any language with a CORBA binding can be used to call and implement CORBA objects. 
+Objects are described in a syntax called Interface Definition Language (IDL).
+
+It consist of 2 system 
+1 -> client 
+2-> object Implementation(server)
