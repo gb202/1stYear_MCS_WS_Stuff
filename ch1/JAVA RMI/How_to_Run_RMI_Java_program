@@ -1,0 +1,10 @@
+javac *.java
+rmic Hello
+rmiregistry
+
+after step 4 open new 2 (terminal/cmd ) to run
+helloserver.java file on one terminal/cmd, &
+helloclient.java file on second terminal 
+to run client and server program we have command 
+java HelloServer
+java HelloClient
