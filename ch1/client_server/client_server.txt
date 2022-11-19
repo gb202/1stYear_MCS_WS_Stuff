@@ -1,0 +1,25 @@
+a client/server application consists of a client program that consumes services provided by a server program. 
+The client requests services from the server by calling functions in the server application. 
+In a distributed computing environment, where the client program and the server program execute on different machines and possibly even on different platforms, 
+the client and server communicate through a communications layer that is often called middleware.
+
+Basic client/server architecture
+
+Although applications that are running on different machines obviously require those machines to be physically connected in 
+someway - usually by a network (LAN, WAN or Internet) - it is important to distinguish between the network architecture 
+and the client/server application architecture. The client application might run on a network client or a network server. 
+The client and server applications might run on the same machine, which could be a network client or a network server, or 
+neither! A client/server application is described as such solely because of its own architecture, 
+without reference to how it is deployed on a network. For example, the X system used for graphical front-ends on many UNIX 
+systems is a client/server application. However, the server part of the application often runs on the network client machine, 
+with the client part of the application running on the network server! The easiest way to remember which is the 
+client part of an application is to remember that the client is always the requestor of services.
+
+The following are typical features of a client/server application:
+
+A client program can request services from multiple server programs
+A client program does not need to be aware of the actual subprograms that provide a service
+Multiple subprograms can work together to provide the service
+Multiple client programs can request services from a single server program
+A server program can provide multiple services
+Typically, the server program runs on a machine that is remote from the machine running the client program
